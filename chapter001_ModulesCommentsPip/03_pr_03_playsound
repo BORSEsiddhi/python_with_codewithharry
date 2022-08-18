@@ -1,0 +1,4 @@
+#error error error
+
+from playsound import playsound
+playsound('''C:\\Users\\admin\\Downloads\\Telegram Desktop\\Har Har Shambhu Shiv Mahadeva_64(PagalWorld.com.se).mp3'
