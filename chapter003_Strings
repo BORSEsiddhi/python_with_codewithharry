@@ -1,1 +1,70 @@
+#basics
+# a = "Harry's" #use this if you have single quotes in your string.
+# a = 'Harry"s'
+a = ''' Harry's and harry"s'''
+print(a)
+print(type(a))
+
+
+# a = "Harry's" #use this if you have single quotes in your string.
+# a = 'Harry"s'
+#a = ''' Harry's and harry"s'''
+# print(a)
+# print(type(a))
+
+greeting = "good morning,"
+name= "harry"
+#concatenating two strings
+print(greeting + name)
+
+
+#
+name = "Harry"
+print(name[4])
+print(name[0:4])
+
+
+#slicing with skip value
+d = name[1:4:2]
+print (d)
+
+
+
+
+
+
+
+#string functions
+story = "Once upon a time there was a youtuber named Harry who uploaded python course with notes"
+print(story[0:5])
+print(len(story))
+print(story.endswith("notes"))
+print(story.count("a"))
+print(story.capitalize())
+print(story.find("upon"))
+print(story.replace("Harry" , "codewithharry"))
+
+
+
+#practice set
+#1.
+name = input("Enter your name ")
+print("good afternoon, " + name)
+
+
+#2.
+letter = '''Dear <|Name>,
+Greetings from ABC coding house , I am happy to tell you about your selection 
+You are selected!
+Have a great day ahead!
+Thanks and regards,
+Bill
+Date: <|DATE|>'''
+name = input("Enter your name\n")
+date = input("Enter Date\n")
+letter = letter.replace("<|NAME|>", name) 
+letter = letter.replace("<|DATE|>", date)
+print(letter)
+
+
 
