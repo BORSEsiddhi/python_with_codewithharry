@@ -1,0 +1,22 @@
+
+
+#program to find remainder when no is divided by 2
+a = 458
+b = 15
+print ("the remainder when a no is divided by b is " , a%b)
+
+#use comparision operator to check a is grater than b 
+
+a = 45
+b = 80
+print (a>b)
+print (b>a)
+
+#find average
+
+a = input("Enter first no:")
+b = input("Enter second no:")
+a = int(a)
+b = int (b)
+avg = (a+b)/2
+print ("The average of a and b is " , avg)
