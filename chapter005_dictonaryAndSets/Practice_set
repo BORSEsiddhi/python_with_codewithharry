@@ -1,0 +1,48 @@
+# practice set
+
+#1 write a program to create a dictonary of hindi words with values as their english trsnslation provide user with an option to look upto it
+
+
+myDict = {
+    "pankha": "Fan",
+    "Dabba":"Tiffin",
+    "Vastu": "Item"
+    }
+
+
+print("options are ",myDict.keys())
+a = input("Enter the Hindi word\n ")
+#print("The meaning of your word is:", myDict[a])
+
+#Below line will not throw an error if the key is not present
+print("The meaning of your word is:", myDict.get(a))
+
+
+
+#2 write a program to input eight numbers from the user and display all the unique(=set) numbers once
+
+num1 = int(input("Enter number 1\n"))
+num2 = int(input("Enter number 2\n"))
+num3 = int(input("Enter number 3\n"))
+num4 = int(input("Enter number 4\n"))
+num5 = int(input("Enter number 5\n"))
+num6 = int(input("Enter number 6\n"))
+num7 = int(input("Enter number 7\n"))
+num8 = int(input("Enter number 8\n"))
+
+ 
+s = {num1, num2, num3, num4, num5, num6, num7, num8}
+print(s)
+
+
+#3 can we have a set with 18(int) and 18(str) as values in it
+
+s = {18 , "18"}
+print(s) #it will print both
+
+#4
+s = {20 , 20.0 , "20"}
+print(s)
+print(len(s)) # length 2
+
+ 
