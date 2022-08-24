@@ -1,0 +1,21 @@
+myDict = {
+    "Fast": "In a quick manner",
+    "Harry":"A coder",
+    "Marks":[1, 2, 5]
+    
+}
+
+#Dictionary methods
+print(list(myDict.keys())) #prints the keys of dictonary
+print(myDict.items()) #prints the (key , value ) for all contents of the dictonary
+print(myDict.values()) #prints the key of the dictonary
+print(myDict)
+updateDict = {
+    "Lovish": "Friend",
+    "Shubham": "Friend",
+    "Harry":"A Ccoder"
+}
+myDict.update(updateDict) #Update the diconary by adding key-value pairs from updateDict
+print(myDict)
+print(myDict.get("Harry2"))
+print(myDict["Harry2"]) #throws an error as harry2 is not prsent in the dictonary
