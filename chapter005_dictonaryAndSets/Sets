@@ -1,0 +1,34 @@
+#sets
+a= {1, 3, 4, 5, 1} #non repetative 
+print(type(a))
+print(a)
+
+#important : this will create empty dictonary not set
+a = {}
+print(type(a))
+
+
+#empty set
+#an empty set can becreated using the below syntax:
+b= set()
+print(type(b))
+
+#adding values in empty
+#set methods
+b.add(4)
+b.add(5)
+b.add(4) #adding value repeateadly doesnot changes a set
+#b.add({4:5}) #cannot add list or dictonary to set
+b.add((4, 5, 6))
+
+print(b)
+#length of the set
+print(len(b)) #prints the length of set
+
+#removal of an item
+#b.remove(15) throws an error
+b.remove(5)  # removes 5
+print(b)
+
+
+print(b.pop()) #removes random element
